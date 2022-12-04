@@ -9,15 +9,15 @@ using namespace std;
 int main()
 {
     
-    int n = enter();
+    int n = enter();                        //enter number of animals
 
-    vector<Animals *> animal_pool(n);
+    vector<Animals *> animal_pool(n);       //make empty vektor for animals
 
-    get_rand_animals(animal_pool, n);
+    get_rand_animals(animal_pool, n);       //fullfill pool with random animals
 
-    animal_ap(animal_pool, n);
+    animal_ap(animal_pool, n);              //animals do what they should
 
-    delpool(animal_pool, n);
+    delpool(animal_pool, n);                //delete pool from memory 
 
 
     return 0;

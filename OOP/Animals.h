@@ -15,6 +15,7 @@ public:
 
 };
 
+//derived classes 
 class Cat : public Animals {
 
     std::string name;
